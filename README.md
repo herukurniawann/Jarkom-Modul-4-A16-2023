@@ -15,3 +15,23 @@
 
 ## CIDR
 
+**Topologi**
+
+**Tree CIDR**
+
+**Penggabungan IP**
+
+**Pembagian IP**
+
+**Subneting**
+
+**Routing**
+
+**Hasil**
+
+**Kendala**
+
+
+
+
+
