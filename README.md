@@ -27,7 +27,8 @@ Topologi dari kelompok kami sebagai berikut:
 
 **Tree CIDR**
 Tree CIDR yang telah kami buat sebagai berikut:
-<img width="8116" alt="tree baru" src="https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/ffebdd03-3efd-4e2b-8fa3-5d0c619781a4">
+![frame tree](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/d858b58c-ba4b-4484-a133-378b2a4d4f0a)
+
 
 **Penggabungan IP**
 
