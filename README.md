@@ -89,36 +89,57 @@ Tree CIDR yang telah kami buat sebagai berikut:
 
 **Routing**
 1. Aura
+
+
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/84541a8f-716d-459d-aaff-2cce51a5f604)
 
-2. Eisen
+3. Eisen
+
+
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/806ba8ef-0cf0-4268-9bd1-56415f39990a)
 
-3. Linie
+4. Linie
+
+
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/2a37b1b0-7012-469a-ba28-7618cc635cfd)
 
-4. Danken
+5. Danken
+
+
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/8dc24ad4-853b-44df-bb54-0368bf9b1e2d)
 
-5. Lugner
+6. Lugner
+
+
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/f5e30305-69d8-481e-964c-04604857a0a1)
 
-6. Lawine
+7. Lawine
+
+
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/4dd22967-6844-49cd-875e-5a0c64b55e7a)
 
-7. Heiter
+8. Heiter
+
+
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/1c971dc5-86d4-4569-8ad9-2e75e61ceb8e)
 
-8. Himmel
+9. Himmel
+
+
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/f727cec8-f183-4ec9-b74f-b99e4fd7b141)
 
-9. Flamme
+10. Flamme
+
+
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/31f70ec4-1229-4eb9-9015-ddfc715f1a15)
 
-10. Frieren
+11. Frieren
+
+
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/d0daf926-c320-4ca9-8d2c-c6c0a35aee4e)
 
 **Hasil**
+
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/775ee7d2-c4eb-4a97-824e-879c4a9ca4dd)
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/3856774c-bfd0-4286-bad6-a2e509555de2)
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/0d9b530a-2785-482f-b317-ad8820fdb65e)
