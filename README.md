@@ -8,7 +8,7 @@
 | Heru Dwi Kurniawan | 5025211055 
 
 ### VLSM
-**Tree**
+#### Tree
 ![10 7 0 019](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/849f97f2-3aee-4325-a8d9-1b4329b54ebc)
 
 Bagian atas pohon VLSM merepresentasikan ruang alamat yang tersedia untuk subnetting. 10.7.0.0/19 adalah subnet induk dari mana semua subnet lainnya berasal. Subnet induk memiliki subnet mask yang lebih besar, yang menunjukkan jumlah alamat yang lebih sedikit yang digunakan untuk tujuan jaringan, dan lebih banyak alamat yang tersedia untuk host.  /19 menunjukkan bahwa 19 bit pertama alamat IP digunakan untuk menentukan jaringan. Dengan subnet mask ini, ada total 2^(32-19) = 2^13, atau 8192 alamat IP yang tersedia.
@@ -19,10 +19,11 @@ Jika kita memerlukan subnet untuk 500 host, subnet mask dihitung sebagai berikut
 2. Kurangi 9 bit yang digunakan untuk host dari total 32 bit untuk mendapatkan subnet yaitu 32-9 = 23
 3. Subnet mask menjadi /23 yang menyediakan 512 alamat.
 
-**Subneting**
+#### Subneting
+
 Dari node induk ini, kita bisa melakukan subnetting lebih lanjut untuk memenuhi kebutuhan spesifik dari berbagai segmen jaringan. contohnya pada subnet **10.7.0.0/20**, subnet ini dibagi lebih lanjut dari 10.3.0.0/19 dan menawarkan 2^(32-20) = 2^12, atau 4096 alamat IP yang tersedia. Subnet-subnet ini kemudian dapat dialokasikan lebih lanjut untuk menciptakan sub-subnet yang lebih kecil, yang disesuaikan dengan jumlah host yang diperlukan dalam masing-masing segmen jaringan. Berikut ini adalah hasil perolehan dari subnetting:
 
-###Tabel Alokasi Subnet
+#### Tabel Alokasi Subnet
 
 | Nama Subnet | ID | Alamat IP Awal | Subnet Mask | Alamat IP Akhir | Jumlah Host | CIDR |
 |-------------|----|----------------|-------------|-----------------|-------------|------|
