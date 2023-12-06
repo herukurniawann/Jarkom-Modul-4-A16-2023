@@ -337,7 +337,7 @@ Lugner   10.7.24.150
 **Topologi**
 Topologi dari kelompok kami sebagai berikut:
 
-![Jarkom Heru - Frame 12](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/3959bcf2-af9c-426e-8637-27e2bc3a1f94)
+![Jarkom Heru - Frame 122](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/d792dd31-f06e-4924-a71e-ed37f2ad7cfa)
 
 **Tree CIDR**
 Tree CIDR yang telah kami buat sebagai berikut:
