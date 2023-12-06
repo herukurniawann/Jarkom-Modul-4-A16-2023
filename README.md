@@ -294,9 +294,185 @@ iface eth2 inet static
 ```
 
 #### Routing
+```
+aura
+route add -net 10.7.24.64 netmask 255.255.255.224 gw 10.7.24.126
+route add -net 10.7.24.116 netmask 255.255.255.252 gw 10.7.24.126
+route add -net 10.7.24.112 netmask 255.255.255.252 gw 10.7.24.126
+route add -net 10.7.24.120 netmask 255.255.255.252 gw 10.7.24.126
+route add -net 10.7.0.0 netmask 255.255.248.0 gw 10.7.24.126
+route add -net 10.7.8.0 netmask 255.255.252.0 gw 10.7.24.126
+route add -net 10.7.24.96 netmask 255.255.255.248 gw 10.7.24.126
+route add -net 10.7.22.0 netmask 255.255.255.0 gw 10.7.24.130
+route add -net 10.7.24.104 netmask 255.255.255.248 gw 10.7.24.134
+route add -net 10.7.24.136 netmask 255.255.255.252 gw 10.7.24.134
+route add -net 10.7.24.140 netmask 255.255.255.252 gw 10.7.24.134
+route add -net 10.7.24.0 netmask 255.255.255.192 gw 10.7.24.134
+route add -net 10.7.12.0 netmask 255.255.252.0 gw 10.7.24.134
+route add -net 10.7.20.0 netmask 255.255.254.0 gw 10.7.24.134
+route add -net 10.7.24.144 netmask 255.255.255.252 gw 10.7.24.134
+route add -net 10.7.23.0 netmask 255.255.255.0 gw 10.7.24.134
+route add -net 10.7.16.0 netmask 255.255.252.0 gw 10.7.24.134
+route add -net 10.7.24.148 netmask 255.255.255.252 gw 10.7.24.134
 
+Eisen
+route add -net 10.7.24.144 netmask 255.255.255.252 gw 10.7.24.142
+route add -net 10.7.24.0 netmask 255.255.255.192 gw 10.7.24.142
+route add -net 10.7.12.0 netmask 255.255.252.0 gw 10.7.24.142
+route add -net 10.7.20.0 netmask 255.255.254.0 gw 10.7.24.142
+route add -net 10.7.23.0 netmask 255.255.255.0 gw 10.7.24.150
+route add -net 10.7.16.0 netmask 255.255.252.0 gw 10.7.24.150
 
+Frieren
+route add -net 10.7.24.120 netmask 255.255.255.252 gw 10.7.24.122
+route add -net 10.7.0.0 netmask 255.255.248.0 gw 10.7.24.122
+route add -net 10.7.8.0 netmask 255.255.252.0 gw 10.7.24.122
+route add -net 10.7.24.116 netmask 255.255.255.252 gw 10.7.24.122
+route add -net 10.7.24.96 netmask 255.255.255.248 gw 10.7.24.122
 
+Flamme
+route add -net 10.7.0.0 netmask 255.255.255.252 gw 10.7.24.114
+route add -net 10.7.24.96 netmask 255.255.255.252 gw 10.7.24.118
+
+Lawine
+route add -net 10.7.12.0 netmask 255.255.252.0 gw 10.7.24.2
+
+Linie
+route add -net 10.7.24.0 netmask 255.255.255.192 gw 10.7.24.146
+route add -net 10.7.12.0 netmask 255.255.252.0 gw 10.7.24.146
+
+```
+
+c) Konfigurasi Client
+```
+AppetiteRegion
+auto eth0
+iface eth0 inet static
+address 10.7.0.3
+netmask 255.255.248.0
+gateway 10.7.0.1
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+BredRegion
+auto eth0
+iface eth0 inet static
+address 10.7.24.2
+netmask 255.255.255.192
+gateway 10.7.24.1
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+GrabForest
+auto eth0
+iface eth0 inet static
+address 10.7.23.2
+netmask 255.255.255.0
+gateway 10.7.23.1
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+Granzchannel
+auto eth0
+iface eth0 inet static
+address 10.7.20.2
+netmask 255.255.254.0
+gateway 10.7.20.1
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+Lakekorridor
+auto eth0
+iface eth0 inet static
+address 10.7.24.66
+netmask 255.255.255.224
+gateway 10.7.24.65
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+Laubhills
+auto eth0
+iface eth0 inet static
+address 10.7.0.2
+netmask 255.255.248.0
+gateway 10.7.0.1
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+ReigelCanyon
+auto eth0
+iface eth0 inet static
+address 10.7.12.3
+netmask 255.255.252.0
+gateway 10.7.12.1
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+Revolte
+auto eth0
+iface eth0 inet static
+address 10.7.24.107
+netmask 255.255.255.248
+gateway 10.7.24.105
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+Richter
+auto eth0
+iface eth0 inet static
+address 10.7.24.106
+netmask 255.255.255.248
+gateway 10.7.24.105
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+Rohrroad
+auto eth0
+iface eth0 inet static
+address 10.7.8.2
+netmask 255.255.252.0
+gateway 10.7.8.1
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+Schwermountains
+auto eth0
+iface eth0 inet static
+address 10.7.24.98
+netmask 255.255.255.248
+gateway 10.7.24.97
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+Royalcapital
+auto eth0
+iface eth0 inet static
+address 10.7.22.2
+netmask 255.255.255.252
+gateway 10.7.22.1
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+Sein
+auto eth0
+iface eth0 inet static
+address 10.7.12.2
+netmask 255.255.252.0
+gateway 10.7.12.1
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+Stark
+auto eth0
+iface eth0 inet static
+address 10.7.24.138
+netmask 255.255.255.252
+gateway 10.7.24.137
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+Turkregion
+auto eth0
+iface eth0 inet static
+address 10.7.16.2
+netmask 255.255.252.0
+gateway 10.7.16.1
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+Wileregion
+auto eth0
+iface eth0 inet static
+address 10.7.22.3
+netmask 255.255.255.252
+gateway 10.7.22.1
+up echo nameserver 192.168.122.1 > /etc/resolv.conf
+```
 **Hasil**
 Berikut ini adalah pengujian ping dari antar node yang berjauhan:
 ![WhatsApp Image 2023-12-05 at 08 29 00_79f338dc](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/a674edab-4fb4-4205-983a-bc3e499a1d2c)
@@ -323,14 +499,8 @@ Denken address 10.7.24.130
 Schwermountains 10.7.24.98
 Lugner   10.7.24.150
 
-###
-**Kendala**
-
-
-
-
-
-
+### Kendala
+Dalam praktikum jaringan komputer ini, saya menghadapi kendala yang cukup berat karena keterbatasan ruang penyimpanan dan memori pada laptop saya. Saat menjalankan GNS3, terminal berjalan sangat lambat dan sering kali saya harus melakukan restart berulang kali untuk memastikan bahwa memori cukup. Keadaan ini semakin diperparah dengan masalah pada kipas laptop, yang sampai mengalami error akibat beban kerja yang berlebihan. Situasi ini membuat proses praktikum menjadi lebih menantang dan membutuhkan waktu yang lebih lama dari yang diharapkan.
 
 ## CIDR
 
