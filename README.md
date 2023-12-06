@@ -526,6 +526,15 @@ Tree CIDR yang telah kami buat sebagai berikut:
 
 **Penggabungan IP**
 
+![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/374ef1d4-b281-447c-9ed1-0820076a464c)
+
+![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/3c84455d-de36-4f8f-9536-d3e9d592aff2)
+
+![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/f4a9869e-4e52-4d43-b6f6-0f4784595c53)
+
+![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/184d90f1-90ac-461c-8b09-505090ec46c1)
+
+
 
 **Pembagian IP**
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/d3f47cda-e5b3-44e5-8b20-fabad1aaa6ae)
