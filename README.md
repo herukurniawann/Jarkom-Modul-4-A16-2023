@@ -50,9 +50,251 @@ Dari node induk ini, kita bisa melakukan subnetting lebih lanjut untuk memenuhi 
 
 **Topologi dan Pembagian Subnet**
 ![10 7 0 019 (2)](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/995931cb-fb6e-4bad-b218-6a9ab4d52f95)
+a) Konfigurasi Router
+```
+Aura
+Eth1 10.7.24.133
+Eth2 10.7.24.129
+Eth3 10.7.24.125
 
+auto eth0
+iface eth0 inet dhcp
+up iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 10.7.0.0/19
+
+auto eth1
+iface eth1 inet static
+	address 10.7.24.133
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.7.24.129
+	netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+	address 10.7.24.125
+	netmask 255.255.255.252
+
+
+Eisen
+Eth0 - a11 10.7.24.134 255.255.255.252
+Eth1 - a13 10.7.24.105 255.255.255.248
+Eth2 - a12 10.7.24.137 255.255.255.252
+Eth3 - a14 10.7.24.141 255.255.255.252
+Eth4 - a19 10.7.24.149 255.255.255.252
+
+auto eth0
+iface eth0 inet static
+	address 10.7.24.134
+	netmask 255.255.255.252
+	gateway 10.7.24.133
+	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+
+auto eth1
+iface eth1 inet static
+	address 10.7.24.105
+	netmask 255.255.255.248
+
+auto eth2
+iface eth2 inet static
+	address 10.7.24.137
+	netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+	address 10.7.24.141
+	netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+	address 10.7.24.149
+	netmask 255.255.255.252
+
+
+
+Denken	
+Eth0 - a9 10.7.24.130	255.255.255.252 
+	Eth1 - a10 10.7.22.1	255.255.255.0
+
+	auto eth0
+iface eth0 inet static
+	address 10.7.24.130
+	netmask 255.255.255.252
+	gateway 10.7.24.129
+	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+
+auto eth1
+iface eth1 inet static
+	address 10.7.22.1
+	netmask 255.255.255.0
+
+
+
+Frieren
+Eth0 - a8 10.7.24.126	255.255.255.252
+Eth1 - a7 10.7.24.65	255.255.255.224
+Eth2 - a6 10.7.24.121	255.255.255.252
+
+auto eth0
+iface eth0 inet static
+	address 10.7.24.126
+	netmask 255.255.255.252
+	gateway 10.7.24.125
+	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+
+auto eth1
+iface eth1 inet static
+	address 10.7.24.65
+	netmask 255.255.255.224
+
+auto eth2
+iface eth2 inet static
+	address 10.7.24.121
+	netmask 255.255.255.252
+
+Flamme
+Eth0 - a6 10.7.24.122	255.255.255.252
+Eth1 - a2 10.7.24.113	255.255.255.252
+Eth2 - a3 10.7.8.1	255.255.252.0
+Eth3 - a4 10.7.24.117	255.255.255.252
+
+auto eth0
+iface eth0 inet static
+	address 10.7.24.122
+	netmask 255.255.255.252
+	gateway 10.7.24.121
+	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+
+auto eth1
+iface eth1 inet static
+	address 10.7.24.113
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.7.8.1
+	netmask 255.255.252.0
+
+auto eth3
+iface eth3 inet static
+	address 10.7.24.117
+	netmask 255.255.255.252
+
+Fern
+Eth0 - a2 10.7.24.114	255.255.255.252
+Eth1 - a1 10.7.0.1	255.255.248.0
+	
+auto eth0
+iface eth0 inet static
+	address 10.7.24.114
+	netmask 255.255.255.252
+	gateway 10.7.24.113
+	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+
+auto eth1
+iface eth1 inet static
+	address 10.7.0.1
+	netmask 255.255.248.0
+
+
+Heiter
+Eth0 - a16 10.7.24.3	255.255.255.192
+Eth1 - a17 10.7.12.1	255.255.252.0
+
+auto eth0
+iface eth0 inet static
+	address 10.7.24.3
+	netmask 255.255.255.192
+	gateway 10.7.24.1
+	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+
+auto eth1
+iface eth1 inet static
+	address 10.7.12.1
+	netmask 255.255.252.0
+
+Himmel
+Eth0 - a4 10.7.24.118	255.255.255.252
+Eth1 - a5 10.7.24.97	25.255.255.248
+
+auto eth0
+iface eth0 inet static
+	address 10.7.24.118
+	netmask 255.255.255.252
+	gateway 10.7.24.117
+	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+
+auto eth1
+iface eth1 inet static
+	address 10.7.24.97
+	netmask 255.255.255.248
+
+Lawine
+Eth0 - a15 10.7.24.146 255.255.255.252
+Eth1 - a16 10.7.24.1	255.255.255.192
+
+auto eth0
+iface eth0 inet static
+	address 10.7.24.146
+	netmask 255.255.255.252
+	gateway 10.7.24.145
+	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+
+auto eth1
+iface eth1 inet static
+	address 10.7.24.1
+	netmask 255.255.255.192
+
+Linie
+Eth0 - a14 10.7.24.142 255.255.255.252
+Eth1 - a15 10.7.24.145 255.255.255.252
+Eth2 - a18 10.7.20.0	255.255.254.0
+
+auto eth0
+iface eth0 inet static
+	address 10.7.24.142
+	netmask 255.255.255.252
+	gateway 10.7.24.141
+	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+
+auto eth1
+iface eth1 inet static
+	address 10.7.24.145
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.7.20.1
+	netmask 255.255.255.254.0
+
+Lugner
+Eth0 - a19 10.7.24.150 255.255.255.252
+Eth1 - a20 10.7.23.1	255.255.255.0
+Eth2 - a21 10.7.16.1	255.255.255.0
+
+auto eth0
+iface eth0 inet static
+	address 10.7.24.150
+	netmask 255.255.255.252
+	gateway 10.7.24.149
+	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+
+auto eth1
+iface eth1 inet static
+	address 10.7.23.1
+	netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+	address 10.7.16.1
+	netmask 255.255.252.0
+
+```
 
 **Routing**
+
+
 
 **Hasil**
 
