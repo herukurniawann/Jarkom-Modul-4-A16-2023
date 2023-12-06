@@ -4,7 +4,7 @@
 
 | Nama | NRP |
 | ----------- | ----------- |
-| Clarissa Luna Maheswari | 5025211033 |
+| Clarissa Luna Maheswari | 5025211003 |
 | Heru Dwi Kurniawan | 5025211055 
 
 ### VLSM
