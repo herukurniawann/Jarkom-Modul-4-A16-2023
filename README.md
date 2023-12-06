@@ -516,7 +516,7 @@ Dalam praktikum jaringan komputer ini, saya menghadapi kendala yang cukup berat 
 **Topologi**
 Topologi dari kelompok kami sebagai berikut:
 
-![Jarkom Heru - Frame 127](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/06124e18-aa08-460f-b64b-bdbd6865ca99)
+![Jarkom Heru - Frame 12HIJ](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/5192e241-0dd0-49d9-a49a-371f96ad9179)
 
 
 **Tree CIDR**
