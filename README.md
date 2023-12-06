@@ -486,6 +486,7 @@ Richter  10.7.24.106
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/7625d23e-2f92-4ae1-bc46-96ac4738ab02)
 Granzchannel  10.7.20.2
 Turk region 10.7.16.2
+
 #### Ping Riegel Canyon dari Aura
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/48e8bd95-f6cd-485f-8d94-8312b6d5888e)
 Riegelcanyon  10.7.12.3
@@ -501,10 +502,9 @@ Laubhills  10.7.0.2
 #### Ping Heiter dari Denken
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/3d06b4c0-7fec-4817-956f-f962d3de0c49)
 Heiter  10.7.24.3
-Denken address 10.7.24.130
+Denken  10.7.24.130
 #### Ping Schwermountains dari Lugner
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/908b7eea-4ce0-4d71-b9d0-89f34f34899f)
-
 Schwermountains 10.7.24.98
 Lugner   10.7.24.150
 
