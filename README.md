@@ -477,34 +477,32 @@ up echo nameserver 192.168.122.1 > /etc/resolv.conf
 Berikut ini adalah pengujian ping dari antar node yang berjauhan:
 
 List IP:
-1) Ping Sein dari Richter
-
+#### Ping Sein dari Richter
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/99ed7025-7325-4b05-9fa6-894bc609923c)
 Sein  10.7.12.2
 Richter  10.7.24.106
-2) Ping Granzchannel dari Turk Region
+#### Ping Granzchannel dari Turk Region
 
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/7625d23e-2f92-4ae1-bc46-96ac4738ab02)
 Granzchannel  10.7.20.2
 Turk region 10.7.16.2
-3) Ping Riegel Canyon dari Aura
-
+#### Ping Riegel Canyon dari Aura
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/48e8bd95-f6cd-485f-8d94-8312b6d5888e)
 Riegelcanyon  10.7.12.3
 Aura
-4) Ping Fern dari Linie
+#### Ping Fern dari Linie
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/f5ca2843-e60a-4eaf-9d09-778ed54b255f)
 Fern 10.7.24.114
 Linie  10.7.24.142
-5) Ping Royalcapital dari Laubhills
+#### Ping Royalcapital dari Laubhills
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/cfb0e8d7-cb5e-444c-b723-6eeb06ddc443)
 Royalcapital  10.7.22.2
 Laubhills  10.7.0.2
-6) Ping Heiter dari Denken
+#### Ping Heiter dari Denken
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/3d06b4c0-7fec-4817-956f-f962d3de0c49)
 Heiter  10.7.24.3
 Denken address 10.7.24.130
-7) Ping Schwermountains dari Lugner
+#### Ping Schwermountains dari Lugner
 ![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/908b7eea-4ce0-4d71-b9d0-89f34f34899f)
 
 Schwermountains 10.7.24.98
