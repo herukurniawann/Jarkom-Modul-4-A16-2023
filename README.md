@@ -48,10 +48,11 @@ Dari node induk ini, kita bisa melakukan subnetting lebih lanjut untuk memenuhi 
 | Lugner-Eisen | A19 | 10.7.24.148 | 255.255.255.252 | 10.7.24.151 | 2 | /30 |
 | Lugner-Switch9-GrobeForest | A20 | 10.7.23.0 | 255.255.255.0 | 10.7.23.255 | 251 | /24
 
-**Topologi dan Pembagian Subnet**
+#### Topologi dan Pembagian Subnet
 ![10 7 0 019 (2)](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/995931cb-fb6e-4bad-b218-6a9ab4d52f95)
 a) Konfigurasi Router
 ```
+Router
 Aura
 Eth1 10.7.24.133
 Eth2 10.7.24.129
@@ -89,7 +90,7 @@ iface eth0 inet static
 	address 10.7.24.134
 	netmask 255.255.255.252
 	gateway 10.7.24.133
-	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+	up echo nameserver 192.168.122.1 > /etc/resolv.conf
 
 auto eth1
 iface eth1 inet static
@@ -122,7 +123,7 @@ iface eth0 inet static
 	address 10.7.24.130
 	netmask 255.255.255.252
 	gateway 10.7.24.129
-	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+	up echo nameserver 192.168.122.1 > /etc/resolv.conf
 
 auto eth1
 iface eth1 inet static
@@ -141,7 +142,7 @@ iface eth0 inet static
 	address 10.7.24.126
 	netmask 255.255.255.252
 	gateway 10.7.24.125
-	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+	up echo nameserver 192.168.122.1 > /etc/resolv.conf
 
 auto eth1
 iface eth1 inet static
@@ -164,7 +165,7 @@ iface eth0 inet static
 	address 10.7.24.122
 	netmask 255.255.255.252
 	gateway 10.7.24.121
-	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+	up echo nameserver 192.168.122.1 > /etc/resolv.conf
 
 auto eth1
 iface eth1 inet static
@@ -190,7 +191,7 @@ iface eth0 inet static
 	address 10.7.24.114
 	netmask 255.255.255.252
 	gateway 10.7.24.113
-	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+	up echo nameserver 192.168.122.1 > /etc/resolv.conf
 
 auto eth1
 iface eth1 inet static
@@ -207,7 +208,7 @@ iface eth0 inet static
 	address 10.7.24.3
 	netmask 255.255.255.192
 	gateway 10.7.24.1
-	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+	up echo nameserver 192.168.122.1 > /etc/resolv.conf
 
 auto eth1
 iface eth1 inet static
@@ -223,7 +224,7 @@ iface eth0 inet static
 	address 10.7.24.118
 	netmask 255.255.255.252
 	gateway 10.7.24.117
-	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+	up echo nameserver 192.168.122.1 > /etc/resolv.conf
 
 auto eth1
 iface eth1 inet static
@@ -239,7 +240,7 @@ iface eth0 inet static
 	address 10.7.24.146
 	netmask 255.255.255.252
 	gateway 10.7.24.145
-	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+	up echo nameserver 192.168.122.1 > /etc/resolv.conf
 
 auto eth1
 iface eth1 inet static
@@ -256,7 +257,7 @@ iface eth0 inet static
 	address 10.7.24.142
 	netmask 255.255.255.252
 	gateway 10.7.24.141
-	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+	up echo nameserver 192.168.122.1 > /etc/resolv.conf
 
 auto eth1
 iface eth1 inet static
@@ -278,7 +279,7 @@ iface eth0 inet static
 	address 10.7.24.150
 	netmask 255.255.255.252
 	gateway 10.7.24.149
-	up echo nameserver 192.122.168.1 > /etc/resolv.conf
+	up echo nameserver 192.168.122.1 > /etc/resolv.conf
 
 auto eth1
 iface eth1 inet static
@@ -292,13 +293,37 @@ iface eth2 inet static
 
 ```
 
-**Routing**
+#### Routing
 
 
 
 **Hasil**
+Berikut ini adalah pengujian ping dari antar node yang berjauhan:
+![WhatsApp Image 2023-12-05 at 08 29 00_79f338dc](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/a674edab-4fb4-4205-983a-bc3e499a1d2c)
+List IP:
+1) Ping Sein dari Richter
+Sein  10.7.12.2
+Richter  10.7.24.106
+2) Ping Granzchannel dari Turk Region
+Granzchannel  10.7.20.2
+Turk region 10.7.16.2
+3) Ping Riegel Canyon dari Aura
+Riegelcanyon  10.7.12.3
+Aura
+4) Ping Fern dari Linie
+Fern 10.7.24.114
+Linie  10.7.24.142
+5) Ping Royalcapital dari Laubhills
+Royalcapital  10.7.22.2
+Laubhills  10.7.0.2
+6) Ping Heiter dari Denken
+Heiter  10.7.24.3
+Denken address 10.7.24.130
+7) Ping Schwermountains dari Lugner
+Schwermountains 10.7.24.98
+Lugner   10.7.24.150
 
-
+###
 **Kendala**
 
 
