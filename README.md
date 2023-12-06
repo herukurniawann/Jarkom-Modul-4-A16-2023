@@ -8,8 +8,6 @@
 | Heru Dwi Kurniawan | 5025211055 
 
 ### VLSM
-**Topologi**
-
 **Tree**
 ![10 7 0 019](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/849f97f2-3aee-4325-a8d9-1b4329b54ebc)
 
@@ -49,7 +47,7 @@ Dari node induk ini, kita bisa melakukan subnetting lebih lanjut untuk memenuhi 
 | Lugner-Eisen | A19 | 10.7.24.148 | 255.255.255.252 | 10.7.24.151 | 2 | /30 |
 | Lugner-Switch9-GrobeForest | A20 | 10.7.23.0 | 255.255.255.0 | 10.7.23.255 | 251 | /24
 
-**Topologi dan Pembagian**
+**Topologi dan Pembagian Subnet**
 ![10 7 0 019 (2)](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/121850356/995931cb-fb6e-4bad-b218-6a9ab4d52f95)
 
 
