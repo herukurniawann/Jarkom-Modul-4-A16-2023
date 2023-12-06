@@ -516,7 +516,6 @@ Dalam praktikum jaringan komputer ini, saya menghadapi kendala yang cukup berat 
 **Topologi**
 Topologi dari kelompok kami sebagai berikut:
 
-![Jarkom Heru - Frame 122](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/d792dd31-f06e-4924-a71e-ed37f2ad7cfa)
 
 **Tree CIDR**
 Tree CIDR yang telah kami buat sebagai berikut:
@@ -527,9 +526,6 @@ Tree CIDR yang telah kami buat sebagai berikut:
 
 
 **Pembagian IP**
-![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/10d92a7f-d2b7-4154-8632-226e4804c6d7)
-![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/10382f9d-8e8b-4e93-984a-676dce2493bc)
-![image](https://github.com/herukurniawann/Jarkom-Modul-4-A16-2023/assets/93961310/31d958f5-f0cf-4fbd-a687-b11c17cadd14)
 
 **Subneting**
 1. LaubHills
